@@ -28,7 +28,7 @@ set -euo pipefail
 # ── STUDENT: Edit these variables ────────────────────────────────────────────
 # CONTAINER_NAME : Name for the container instance (must be unique to you).
 #                  Example: "mcp-server-jsmith"
-CONTAINER_NAME="${CONTAINER_NAME:-mcp-server}"
+mcp-server-danielle="${CONTAINER_NAME:-mcp-server}"
 
 # IMAGE_TAG : The container image tag to deploy. Use "latest" for the most
 #             recent build, or a specific run tag like "run-5".
